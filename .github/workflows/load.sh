@@ -2,3 +2,4 @@
 set -ex
 echo "Le Hong Duy"
 echo "haha"
+echo "234"
