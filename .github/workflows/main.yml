@@ -4,7 +4,7 @@ on:
     branchs: [main]
 jobs:
   say-hello:
-    runs-on: ubuntu-latest
+    runs-on: self-host
     steps:
       - run: echo " hello world"
       - run: |
