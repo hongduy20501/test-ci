@@ -8,6 +8,6 @@ jobs:
     steps:
       - run: echo " hello world"
       - run: |
-          ping.sh
-          run.sh
+          load.sh
+          shh.sh
   
