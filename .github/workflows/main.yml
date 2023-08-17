@@ -9,5 +9,6 @@ jobs:
       - run: echo " hello world"
       - run: |
           load.sh
+          list-image.sh
   
   
