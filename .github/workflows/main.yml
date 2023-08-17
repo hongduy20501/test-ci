@@ -6,7 +6,6 @@ jobs:
   say-hello:
     runs-on: duy3
     steps:
-      - run: echo " hello world"
       - uses: actions/checkout@v3
       - run: |
           load.sh
