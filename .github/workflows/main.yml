@@ -4,7 +4,7 @@ on:
     branchs: [main]
 jobs:
   say-hello:
-    runs-on: self-hosted
+    runs-on: duy3
     steps:
       - run: echo " hello world"
       - run: |
