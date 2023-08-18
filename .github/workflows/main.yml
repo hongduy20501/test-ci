@@ -1,6 +1,6 @@
 name: hello world
 on:
-  workflow-dispatch:
+  workflow_dispatch:
   #push:
    # branchs: [main]
 jobs:
