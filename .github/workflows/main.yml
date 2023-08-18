@@ -3,10 +3,10 @@ on:
   workflow_dispatch:
 jobs:
   say-hello:
-    runs-on: duy3
+    runs-on: self-hosted
     steps:
       - run: load.sh
-      #- uses: actions/checkout@v2
+      - uses: actions/checkout@v2
       - run: list-image.sh
   
   
