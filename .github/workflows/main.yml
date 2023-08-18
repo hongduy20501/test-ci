@@ -5,8 +5,8 @@ jobs:
   say-hello:
     runs-on: self-hosted
     steps:
-      - run: load.sh
       - uses: actions/checkout@v2
+      - run: load.sh
       - run: list-image.sh
   
   
