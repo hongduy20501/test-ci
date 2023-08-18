@@ -7,7 +7,7 @@ jobs:
     runs-on: duy3
     steps:
       - run: load.sh
-      - uses: actions/checkout@v2
+      #- uses: actions/checkout@v2
       - run: list-image.sh
   
   
