@@ -1,7 +1,8 @@
 name: hello world
 on:
-  push:
-    branchs: [main]
+  workflow-dispatch:
+  #push:
+   # branchs: [main]
 jobs:
   say-hello:
     runs-on: duy3
