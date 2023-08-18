@@ -6,7 +6,7 @@ jobs:
   say-hello:
     runs-on: duy3
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v2
       - run: |
           load.sh
           list-image.sh
