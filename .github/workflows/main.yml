@@ -9,4 +9,4 @@ jobs:
     steps:
       - run: echo "hello world !"
       - run: |
-          hello.sh
+          /home/duy/actions-runner/_work/test-ci/test-ci/hello.sh
