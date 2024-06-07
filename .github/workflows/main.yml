@@ -7,6 +7,7 @@ jobs:
   say-hello:
     runs-on: self-hosted
     steps:
+      - run: echo "hi !"
       - run: |
           hello.sh
   
