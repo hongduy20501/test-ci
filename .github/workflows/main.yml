@@ -8,4 +8,5 @@ jobs:
     runs-on: self-hosted
     steps:
       - run: echo "hello world !"
-  
+      - run: |
+          hello.sh
